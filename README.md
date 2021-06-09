@@ -1,4 +1,4 @@
-# MarsRoversNicole
+# MarsRovers
 Code Submission for DealerOn Software Engineer Position - Mars Rovers
 -Nicole Christian 6/10/2021
 
