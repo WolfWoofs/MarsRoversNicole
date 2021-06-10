@@ -153,6 +153,11 @@ namespace MarsRoversNicole
                         Console.WriteLine("Invalid input. Please use format \"x y rotation\" with rotation as N, E, S, or W.");
                         continueCheck = false;
                         newString = "";
+                    }else if (Int32.Parse(splited[0]) > gridX || Int32.Parse(splited[0]) < 0 || Int32.Parse(splited[1]) > gridY || Int32.Parse(splited[1]) < 0)
+                    {
+                        Console.WriteLine("Invalid input. Starting position of the rover must be within the grid dimensions.");
+                        continueCheck = false;
+                        newString = "";
                     }
                     else
                     {
