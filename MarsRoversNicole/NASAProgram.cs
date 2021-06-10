@@ -148,7 +148,7 @@ namespace MarsRoversNicole
                     }
 
                     string[] splited = roverStartPosition.Split(" ");
-                    if (splited.Length != 3 || !(roverStartPosition.Contains("n") || roverStartPosition.Contains("e") || roverStartPosition.Contains("s") || roverStartPosition.Contains("w")))
+                    if (splited.Length != 3 || !(roverStartPosition.Contains("n") || roverStartPosition.Contains("e") || roverStartPosition.Contains("s") || roverStartPosition.Contains("w")) || splited[2].Length != 1)
                     {
                         Console.WriteLine("Invalid input. Please use format \"x y rotation\" with rotation as N, E, S, or W.");
                         continueCheck = false;
