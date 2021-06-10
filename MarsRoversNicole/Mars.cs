@@ -143,17 +143,9 @@ namespace MarsRoversNicole
                 }
                 return true;
             }
-
-
-
-
-
-
         }
-
-       
+  
     }
-
 }
 
 

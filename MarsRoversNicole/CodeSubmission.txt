@@ -14,5 +14,5 @@ A minimum of 3 inputs are needed to run one rover.
 2. A rover's starting position and rotation
 3. The rover's movement instructions
 
-Once the current rover's instructions are inputted, number 2 and 3 is repeated until no starting position is given. (Press Enter on rover's starting position prompt.)
+Once the current rover's instructions are inputted, number 2 and 3 is repeated until no starting position is given. (Press Enter on rover's starting position prompt.) 
 If you are done entering in new rovers by pressing Enter at the starting position prompt, the calculation of movement will begin and the new positions of the rovers will be printed. At this time, pressing Enter will restart the prompts back to 1., allowing you to put in new grid dimensions.

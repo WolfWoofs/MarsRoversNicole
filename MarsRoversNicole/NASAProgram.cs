@@ -45,9 +45,9 @@ namespace MarsRoversNicole
                 ResetVariables();
                 if (getGrid())
                 {
+                    marsConnection.SetMovementGrid(gridX, gridY);
                     if (newRover())
                     {
-                        marsConnection.SetMovementGrid(gridX, gridY);
                         //All data inputs have been collect, time to calculate the movement of the rover per rover.
                         for (int roverCount = 0; roverCount < roverX.Count; roverCount++)
                         {
@@ -210,8 +210,8 @@ namespace MarsRoversNicole
                 Console.WriteLine("An exception was thrown at Rover movement: " + err.StackTrace);
                 throw;
             }
-            //Finished creating first rover with starting location and rotation and movement instructions.
-            Console.WriteLine("END");
+            //Finished creating a rover with starting location and rotation and movement instructions.
+            Console.WriteLine("ROVER END");
             Console.Write("Rover starting position (x y r): ");
             string nextInput = Console.ReadLine().Trim().ToLower();
             if (!string.IsNullOrWhiteSpace(nextInput))
